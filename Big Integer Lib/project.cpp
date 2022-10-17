@@ -502,12 +502,12 @@ string BigInteger::toString(long long n)
     return temp;
 }
 
-long long BigInteger::toInt(string s)
+long long BigInteger::toInt(string str)
 {
     long long sum = 0;
 
-    for (int i = 0; i < s.length(); i++)
-        sum = (sum * 10) + (s[i] - '0');
+    for (int i = 0; i < str.length(); i++)
+        sum = (sum * 10) + (str[i] - '0');
 
     return sum;
 }
