@@ -2,6 +2,7 @@
   Big Integer library in C++, single file implementation.
  */
 
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 10000 // for strings
