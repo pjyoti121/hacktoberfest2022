@@ -9,7 +9,7 @@ const closeBtn = document.querySelector("#closeBtn");
 const list = document.querySelector("#listVal");
 const item = document.querySelector("#itemVal");
 
-//initial dynamic style
+//initial dynamic style to style the page
 popUpItem.style.display = "none";
 popUpItemList.style.display = "none";
 
